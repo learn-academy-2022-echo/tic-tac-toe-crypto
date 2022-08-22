@@ -37,7 +37,7 @@ const App = () => {
    for(index = 0; index < winCon.length; index++){
     const [a,b,c] = winCon[index]
    if(squares[a] && squares[a] === squares[b] && squares[a] === squares[c]){
-   return alert("You Win") 
+   return alert(`${squares[a]} Win`) 
   }
 }
 }
@@ -55,9 +55,11 @@ const App = () => {
        checkWinner={checkWinner}/>)
       }
     )}   
-      </div>
-
+      </div >
+      <br></br>
+      <div className="button">
       <button type="button" onClick={null}>Restart Game</button>
+      </div>
     </>
   )
 }

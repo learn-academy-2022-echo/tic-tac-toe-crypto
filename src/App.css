@@ -1,18 +1,22 @@
 .square {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border: 2px solid black;
 }
 
 
 .board {
   display: flex;
-  width: 620px;
+  width: 320px;
   flex-wrap: wrap;
-  margin: auto
+  margin: 0 auto
 }
 
 h1{
 text-align: center;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
