@@ -4,7 +4,7 @@ const Square = (props) => {
 
   const handleClick = () => {
     props.handleGame(props.index)
-    
+    props.checkWinner(props.index)
   }
 
   return (
